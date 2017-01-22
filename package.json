@@ -44,7 +44,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run test:single && npm check-coverage"
+      "pre-commit": "npm run test:single && npm run check-coverage"
     }
   }
 }
